@@ -1,0 +1,44 @@
+.container-fluid
+{
+	background-color:#403DE8;
+}
+main
+{
+	background-color:#19E508;
+	
+}
+footer
+{
+	background-color:#C139BB;
+	
+}
+.img
+{
+	width: 250px;
+	height: 190px;
+}
+.main
+{
+	display: flex;
+	justify-content: space-around;
+}
+.p1
+{
+	font-size: 20px;
+}
+@media (max-width: 768px)
+{
+	.main
+	{
+		flex-direction: column;		
+	}
+	.u1
+	{
+		text-align:center;
+		margin-right:10px;
+	}
+	.p5
+	{
+		font-size: 20px;
+	}
+}
